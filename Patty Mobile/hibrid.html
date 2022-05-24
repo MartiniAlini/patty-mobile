@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="sshub SaaS">
+<meta name="author" content="Daniel Bandel">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+<title>SSHUB-SaaS</title>
+<script src="https://kit.fontawesome.com/6fcf15689e.js" crossorigin="anonymous"></script>
+<link rel="icon" href="sHubTransparente.ico">
+<link rel="stylesheet" href="default.css"> 
+<!--link rel="stylesheet" href="w3.css"-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="jquery-3.4.1.min.js"></script>
+<style>
+	html{
+		height: 100%;
+	}
+	body{
+		min-height: 100%;
+	}
+	#screen{
+		background-color: #d9b3ff; 
+		height: calc( 100vh - 4px);
+		margin: 0;
+	}
+	#header{
+		margin: 0 auto 0 auto;
+		/*border-bottom: 2px solid rgb(148, 90, 202); */
+ 		height: 50px;
+		width: 400px;
+	}
+	#content{
+		margin: 0 auto 0 auto;
+ 		height: calc(100vh - 104px);
+		width: 400px;
+		overflow-y: auto;
+	}
+	#footer{
+		margin: 0 auto 0 auto;
+		border-top: 2px solid rgb(148, 90, 202); 
+ 		height: 50px;
+		width: 400px;
+	}
+	.flex{
+		display: flex;
+	}
+	.container{
+		max-width: calc(400px - 24px);
+		margin: 2 auto;
+		height: 24px;
+		padding: 0;
+		border-radius: 2px;
+	}
+	/*#btn-service-new{
+		flex:1;
+	}
+	#op-service-header{
+		flex:10;
+	}
+	#btn-service-search{
+		flex:1;
+	}
+
+	.btn-service-edt{
+		flex:1;
+	}
+	.row-service-name{
+		flex:10;
+	}
+	.btn-service-del{
+		flex:1;
+	}
+	.out-btn{
+		padding:2px;
+		text-align: center;
+	}
+
+	.btn{
+		margin: 2px;
+	  	background-color: #4CAF50; /* Green */
+		border: 1px solid #4C7000;
+		/*border-radius: 2px;
+		color: white;
+		padding: 2px 2px;
+		text-align: center;
+		text-decoration: none;
+		font-size: 12px;
+	}
+
+</style>
+
+<body onLoad="init();">
+<div id="screen">
+	<div id="header">
+		<div class="container">
+	<img class="logo" src="logo.jpg">
+	
+	<img class="fone" src="fone.png">		
+	
+	
+	<ul class="atendimento">
+		<li>Atendimento e tele-vendas</li>
+		<li><p class="numero">(51) 999999999</p></li>
+	</ul>
+	<a class="insta" href="https://www.instagram.com/patricia_goularts"><img src="instagram.jpg"></a>
+	<ul class="bemVinda">
+		<li>Bem Vinda :)</li>
+		<li><a class="entre"  href="Entre ou Cadastre-se">Entre</a></li>
+		<li><a class="cadastre"  href="Entre ou Cadastre-se">Ou cadastre-se</a></li>
+	</ul>
+	
+
+	<a class="carrinho" href="carrinho.html"><img src="carrinho.png"></a>
+	</div>
+	</div>
+	<div id="content">
+		<p>middle</p>
+	</div>
+	<div id="footer">
+		<p>bottom-middle</p>
+	</div>
+	<div id="general-modal" class="w3-modal" style="display:none">
+		<div class="w3-modal-content">
+			<div class="w3-container w3-pale-green pd5">
+				
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>

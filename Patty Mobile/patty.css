@@ -1,0 +1,459 @@
+.container {
+	display:flex;
+justify-content: center;
+
+
+}
+.logo {
+	display: flex;
+	width: 18.75rem;
+	height: 8.125rem;
+	padding-right: 6.25rem;
+	padding-top: 0.625rem;
+		
+}
+
+.whats{
+	align-self: center;
+	font-family: verdana;
+	margin-bottom: 1.25rem;
+	padding-right:0.625rem;
+}
+.whats:hover {
+	
+	opacity: 0.5;
+}
+
+.fone{
+	color: #B78327;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: verdana;
+}
+.fone:hover {
+	
+	opacity: 0.5;
+}
+	
+
+.foneul{
+	align-self: center;
+	margin-bottom: 3.187rem;
+}
+
+
+.bemVinda {
+align-items: initial;
+margin-top: 1.25rem;
+margin-bottom: 1.25rem;
+font-family: verdana;
+color:#804000;
+}
+
+.entre {
+	display: flex;
+	color: #B78327;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 0.312rem;
+	padding: 0.625rem 0.625rem;
+	margin-bottom: 0.625rem;
+	margin-top: 0.625rem;
+	border-color:#B78327 ;
+	border-style: solid;
+	border-width: 0.187rem;
+	
+	font-family: verdana;
+}
+
+
+a.entre {
+	justify-content: center;
+}
+
+.entre:hover{
+	opacity: 0.5;
+
+}
+.cadastre{
+color: #47476b;
+margin-top: 0.625rem;
+font-family: verdana;
+color:#804000;
+}
+.cadastre: hover{
+text-decoration-color: #ff9900;/*rolou mas muda a cor não quando passa o mouse mas quando clica*/
+}
+.insta{
+	display: flex;
+	margin-top: 2.5rem;
+	margin-right: 1.25rem;
+	margin-left: 12.5rem;
+	margin-bottom: 6.25rem;
+	width:3.125rem;
+	height:3.125rem;
+}
+.insta:hover{
+	opacity: 0.5;
+}
+
+.bolsinha{
+	display: flex;
+	margin-top:1.875rem;
+	margin-right: 1.25rem;
+	margin-left: 1.25rem;
+	margin-bottom: 6.25rem;
+	width: 2.81rem;
+	height: 3.25rem;
+
+}
+
+.bolsinha:hover{
+	opacity: 0.5;
+}
+
+
+/* corpo*/
+
+	 
+}
+nav.container {
+	display:  flex;
+	flex-direction: row;
+	background:#ff6666;
+
+	
+}
+.tipos{
+	text-decoration:none;
+	font-weight: bold;
+	border-color: #B78327;
+	border-width: 0.187rem;
+	border-bottom: solid;
+	border-top: solid;
+	padding: 0.937rem 3.437rem;
+	color:#B78327;
+	font-size: 1.875rem;
+	display:  flex;
+	flex-direction: row;
+
+	
+}
+.tipos:hover {
+	
+	opacity: 0.5;
+}
+
+ul.container{
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+	border-width: 1.25rem;
+	border-color: white;
+	
+	
+}
+
+.container >.produtos {
+	display: flex;
+	padding:2.5rem;
+	width: 12.5rem;
+	height: 12.5rem;
+	flex-wrap: wrap;
+	background: #f2f2f2;
+	border-style: solid;
+	border-width: 1.25rem;
+	border-color: white;
+	justify-content: space-around;
+	color:#804000;
+	font-family: verdana;
+
+}
+
+.descricao {
+	padding: 0 0.937rem;
+}
+
+.foto:hover{
+	opacity: 0.5;
+	height: 8.187rem;
+	width: 10.437rem;
+}
+section.container{
+		display: flex;
+		justify-content: center;
+		
+    			
+		}
+
+
+	.paginas{
+	display: flex;
+	border-color: white;
+	border-style: solid;
+	color: #B78327;
+	font-family: verdana;
+	margin-right: 0.5rem;
+}  
+
+
+a.pagination{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;  
+	padding: 0.5rem 1rem;
+  text-decoration: none;
+	background-color:#e0e0eb ;
+	border-color: white;
+	border-style: solid;
+	border-width: 0.125rem;
+	color: #B78327;
+	font-family: verdana;
+}
+.pagination a:hover{
+	opacity: 0.5;/*não funfou*/
+}
+
+
+footer{
+	
+vertical-align: middle;
+
+}
+  
+.rodape.container{
+	display: flex;
+	width: 100vw;	
+  }
+.rodape {
+  /*background: #ebc6d9;*/	
+  display: flex;
+	background: linear-gradient(#f2f2f2,#737373);
+  
+  }
+.rodape ul{
+	margin-top: 1.875rem;
+	margin-bottom: 3.125rem;
+
+
+}
+.rodape li{
+
+text-decoration: none;
+padding-right: 6.25rem;
+padding-left: 6.25rem;
+margin-bottom: 1.25rem;
+
+}
+.rodape a{
+	text-decoration: none;
+color: #B78327;
+font-size: 1.25rem;
+margin-bottom: 1.25rem;
+
+}
+.rodape a:hover{
+	font-size: 1.312rem;
+	opacity: 0.5;
+}
+
+.topo{
+	color: #B78327;
+	font-size: 1.25rem;
+}
+.logorodape{
+	width:9.375rem;
+	height: 9.375rem;
+	padding-top: 1.875rem;
+	padding-right: 1.875rem;
+}
+
+
+
+/*faz sumir ou aparerer algo só na tela grande*/
+@media screen and (min-width: 768px){
+		
+		
+		.cabecalhoEntre{
+			display: none;
+		}
+		.entreMobile{
+			display: none;
+		}
+		.cadastreMobile{
+			display: none;
+		}
+		.rodapeMobile{
+			display: none;
+		}
+		.footerMobile{
+			display: none;
+		}
+		.logoMobile{
+			display: none;
+		}
+		
+		
+}
+
+/*faz sumir ou aparecer algo só na tela pequena*/
+@media screen and (max-width: 768px){
+		.whats{
+			display: none;
+		}
+		.fone{
+			display: none;
+		}
+		.foneul{
+			display: none;
+		}
+		.bemVinda{
+			display: none;
+		}
+		.entre{
+			display: none;
+		}
+		a.entre{
+			display: none;
+		}
+		.cadastre{
+			display: none;
+		}
+		.insta{
+			display: none;
+		}
+		.rodape{
+			display: none;
+		}
+		.logo{
+			display: none;
+		}
+		.bolsinha{
+			display: none;
+		}
+
+	
+ .bolsinha2{
+ 		display:flex;
+  		flex-direction:row;
+  		margin: 1rem 0 0 1.5rem;
+ 		width: 3rem;
+ 		height: 3rem;
+	justify-content: center;
+		} 	
+
+	
+ .cabecalhoEntre {
+font-family: verdana;
+color:#804000;
+}
+
+
+.entreMobile {
+	display: flex;
+	color: #B78327;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 0.312rem;
+	margin: 1rem  0.625rem;
+	border-color:#B78327 ;
+	border-style: solid;
+	border-width: 0.187rem;
+	font-family: verdana;
+}
+
+
+a.entreMobile {
+	justify-content: center;
+	align-self: center;
+
+}
+
+.entreMobile:hover{
+	opacity: 0.5;
+
+}
+
+
+
+a.cadastreMobile{
+color: #47476b;
+font-family: verdana;
+color:#804000;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.cadastreMobile: hover{
+text-decoration-color: #ff9900;/*rolou mas muda a cor não quando passa o mouse mas quando clica*/
+}
+	
+	
+ 	 .logoMobile{
+  		display:flex;
+			flex-direction: row;
+			padding:0 2.5rem;
+			width: 11rem;
+ 			height: 13rem;
+ 			justify-content: center;
+ 		 }
+ 		
+ 	 
+
+	nav.container{
+		
+		display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-template-areas: 
+            "tipos tipos"  
+            "tipos tipos"    
+        ;
+       			
+		}
+	a.tipos{
+		padding-right: inherit;
+		padding-left: inherit;
+		background: #B78327;
+		color:#ffffff;
+		border-color: #B78327;
+		justify-content: center
+		
+	}
+
+	.paginas{
+	margin-left: 1rem;
+	
+	}
+	.rodapeMobile	{
+	background: linear-gradient(#f2f2f2,#737373);	
+	/*background: #ebc6d9;*/
+	padding-top: 2rem;
+padding-bottom: 15rem;
+}
+	.footerMobile{
+	text-decoration: none;
+color: #B78327;
+font-size: 1.25rem;
+margin-bottom: 1.25rem;
+justify-items: center;
+margin-left: 3rem;
+line-height: 0.7;
+
+}
+.footerMobile:hover{
+	font-size: 1.312rem;
+	opacity: 0.5;
+
+}	
+.logorodape{
+	padding-bottom: 1rem;
+	padding-left: 8rem;
+}
+
+
+}
+
+		
+
+
+
+

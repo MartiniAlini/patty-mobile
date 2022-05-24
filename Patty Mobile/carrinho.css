@@ -1,0 +1,329 @@
+.container {
+	display:flex;
+justify-content: center;
+
+}
+header{
+	background: #f2f2f2; 
+
+}
+
+.logo {
+	display: flex;
+	width: 18.75rem;
+	height: 8.125rem;
+	padding-right: 6.25rem;
+	padding-top: 0.625rem;
+	padding-bottom: 0.625rem;
+		
+}
+
+.whats{
+	align-self: center;
+	font-family: verdana;
+	padding-right: 0.625rem;
+}
+
+.whats:hover{
+	opacity: 0.5;
+
+}
+	
+
+
+.fone{
+	color: #B78327;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: verdana;
+}
+
+.fone:hover{
+	opacity: 0.5;
+	
+} 
+.foneul{
+	align-self: center;
+	padding-right: 3.187rem;
+	
+}
+
+
+.entre {
+	display: flex;
+	color: #B78327;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 0.312rem;
+	padding: 0.625rem 0.625rem;
+	margin-bottom: 0.625rem;
+	margin-top: 0.625rem;
+	margin-left: 1.25rem;
+	margin-right: 1.25rem;
+	border-color:#B78327 ;
+	border-style: solid;
+	border-width: 0.1875rem;
+	font-family: verdana;
+}
+
+
+a.entre {
+	justify-content: center;
+
+}
+
+.entre:hover{
+	opacity: 0.5;
+
+}
+.cadastre{
+font-family: verdana;
+color:#804000;
+
+}
+.cadastre: hover{
+text-decoration-color: #ff9900;/*rolou mas muda a cor não quando passa o mouse mas quando clica*/
+}
+.insta{
+	display: flex;
+	margin-top: 2.5rem;
+	margin-right: 1.25rem;
+	margin-left: 12.5rem;
+	margin-bottom: 6.25rem;
+	width:3.125rem;
+	height:3.125rem;
+}
+.insta:hover{
+	opacity: 0.5;
+}
+
+.cabecalhoCarrinho{
+	width: 2.81rem;
+	height: 3.25rem;
+}
+
+.bolsinha{
+	display: flex;
+	margin-top:1.875rem;
+	margin-right: 1.25rem;
+	margin-bottom: 6.25rem;
+	width: 2.81rem;
+	height: 3.25rem;
+}
+.bolsinha:hover{
+	opacity: 0.5;
+}
+
+
+div.container{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3.125;
+	margin-bottom: 3.125;
+font-family: verdana;
+color:#804000;
+}	
+	
+
+li{
+display:flex;
+
+
+}
+
+.produto{
+	width: 25rem;
+}
+
+.topo{
+	margin-top: 3.125;
+	font-weight: bold;
+}	
+.numero{
+	margin-top:0.625;
+	font-family: verdana;
+	color:#804000;
+
+}
+.number{
+	border-color:#B78327 ;
+	border-style: solid;
+	border-width: 0.125rem;
+	border-radius: 0.187rem;
+	margin-top: 0.312rem;
+}
+
+.ok{
+	border-color:#B78327 ;
+	border-style: solid;
+	border-width: 0.125rem;
+	border-radius: 0.187rem;
+}
+.adicionar{
+	border-color:#B78327;
+	border-style: solid;
+	border-width: 0.125rem;
+	border-radius: 0.187rem;
+}
+.frete{
+	border-color:#B78327;
+	border-style: solid;
+	border-width: 0.125rem;
+	border-radius: 0.187rem;
+}
+
+
+.foto{
+	margin-top:1.25rem;
+}
+input{
+font-family: verdana;
+	color:#804000;	
+}
+.naoSeiCEP{
+	font-family: verdana;
+	color:#804000;
+}
+
+
+ 
+footer.container{
+	display:flex;
+justify-content:center;
+height: 12.5rem;
+font-family: verdana;
+color:#804000;
+background: linear-gradient(#f2f2f2,#737373);	
+/*background: #f2f2f2;*/
+padding-top: 1.25rem; 
+}
+
+
+table{
+	width: 25%;
+	display:flex;
+
+}
+
+.caracteristica{
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 0.812rem;
+}
+
+.subtitulo{
+	text-align: center;
+	
+
+}
+.descricao{
+	display:flex;
+	display:inline-flex;
+	width:90%;
+	
+
+}
+.tituloDescricao{
+	margin-bottom: 0.625rem;
+	font-weight: bold;
+	width: 50%
+}
+.caixaDescricao{
+
+width: 40%
+
+}
+/*Faz sumir ou aparecer algo só na tela grande*/
+@media screen and (min-width: 768px){
+
+	.cabecalhoEntre{
+		display: none;
+	}
+	.entreMobila{
+		display: none;
+	}
+	.cadastreMobile{
+		display: none;
+	}
+
+}
+
+/*faz sumir ou aparecer algo só na tela pequena*/
+@media screen and (max-width:768px){
+	.whats{
+		display: none;
+	}
+	.fone{
+		display: none;
+	}
+	.foneul{
+		display: none;
+	}
+	.entre{
+		display: none;
+	}
+	a.entre{
+		display:none;
+	}
+	.cadastre{
+		display:none;
+	}
+	.insta{
+		display:none;
+	}
+	.rodape{
+		display:none;
+	}
+	.logo{
+		display: none;
+	}
+	.bolsinha{
+		display:none;
+	}
+	.bolsinha2{
+		display:flex;
+		flex-direction: row;
+		margin: 1rem 0 0 1.5rem;
+		width: 3rem;
+		height: 3rem;
+		justify-content:center;
+	}
+
+	.cabecalhoEntre{
+		font-family:verdana;
+		color:#804000;
+	}
+	.entreMobile{
+		display: flex;
+		color: #B78327;
+		font-weight: bold;
+		text-decoration: none;
+		border-radius: 0.312rem;
+		margin: 1rem 0.625rem;
+		border-color: #B78327;
+		border-style: solid;
+		border-width:0.187rem;
+		font-family: verdana;
+	}
+
+	a.entreMobile{
+		justify-content:center;
+		align-self: center;
+	}
+
+	.entreMobile:hover{
+		opacity: 0.5;
+	}
+
+	a.cadastreMobile{
+		color:#47476b;
+		font-family: verdana;
+		color: #804000;
+		padding-left:1rem;
+		padding-right:1rem;
+	}
+	.cadastreMobile: hover{
+		text-decoration-color:#ff9900;
+	}
+	
+}
